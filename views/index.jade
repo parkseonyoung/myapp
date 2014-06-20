@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+  p
+    | Welcome to #{title}
+    | Text can be included in a number of
+    | different ways.
+   button(class="btn", data-action="bea").
+     be awesome
+  ul
+    li ItemA
+    li ItemB
+
+  a(href='google.com') Google
+  a(class='button', href='google.com') Google
+
+    input(type='checkbox', checked)
+    input(type='checkbox')
+
+
+

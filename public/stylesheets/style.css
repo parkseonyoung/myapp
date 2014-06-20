@@ -1,0 +1,13 @@
+#body {
+    margin:0;
+    color:white;
+    font-family:impact, arial black
+}
+
+#welcome {
+    font-size:100pt;
+    word-spacing:-20pt;
+    position:relative;
+    top:70px;
+    left:50px;
+}
